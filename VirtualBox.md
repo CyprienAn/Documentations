@@ -9,7 +9,7 @@ Pour cela, il faut installer les paquets:
 	apt update
 	apt install linux-headers-amd64 gcc make perl
 	
-Puis, via l'onglet `Périphériques`, cliquer sur `Insérer l'image CD des Additions Invités...`. Ensuite, ouvrir un terminal dans le CD `VBox_GAs_5.2.12` puis passer en `root`. Et exécuter:
+Puis, via l'onglet `Périphériques`, cliquer sur `Insérer l'image CD des Additions Invités...`. Ensuite, ouvrir un terminal dans le CD `VBox_GAs_x.x.xx` puis passer en `root`. Et exécuter:
 
 	sh ./VBoxLinuxAdditions.run
 	
@@ -23,7 +23,7 @@ Si votre VM vient d'être installée, faire `apt update` devrait vous renvoyer u
 
 	nano /etc/apt/source.list
 	
-Et commentez la ligne `deb cdrom:[Debian GNU/Linux 9.4.0 _Stretch_ - Official amd64 xfce-CD Binary-1 20180310-11:21]/ stretch main`.
+Et commentez la ligne `deb cdrom:[Debian GNU/Linux ...`.
 
 ## Connexion à sa VM en local ##
 
