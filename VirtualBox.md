@@ -19,7 +19,7 @@ Pour finir, dans l'onglet `Périphériques`, `Presse-papier partagé`, activer `
 
 ### Remarque ###
 
-Si votre VM vient d'être installée, faire `apt update` devrait vous renvoyer une erreur. Pour la corriger, faite en `root`:
+Si votre VM vient d'être installée, faire `apt update` peut vous renvoyer une erreur. Pour la corriger, faite en `root` ou via `sudo`:
 
 	nano /etc/apt/source.list
 	
