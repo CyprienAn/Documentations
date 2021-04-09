@@ -7,7 +7,7 @@ Il est possible dans VirtualBox de partager le presse-papier entre la machine h�
 Pour cela, il faut installer les paquets:
 
 	apt update
-	apt install linux-headers-amd64 gcc make perl
+	apt install gcc make perl
 	
 Puis, via l'onglet `Périphériques`, cliquer sur `Insérer l'image CD des Additions Invités...`. Ensuite, ouvrir un terminal dans le CD `VBox_GAs_5.2.12` puis passer en `root`. Et exécuter:
 
